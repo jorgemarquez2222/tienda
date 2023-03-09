@@ -2,7 +2,6 @@ import React, { useEffect } from 'react';
 import { MyEstadoGlobalContext } from '../context/MyEstadoGlobalContext';
 import Container from 'react-bootstrap/Container';
 import { Product } from './Product';
-import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 export function ViewCart({ items = [] }) {
   const { products } = React.useContext(MyEstadoGlobalContext);
